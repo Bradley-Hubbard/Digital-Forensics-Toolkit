@@ -21,23 +21,23 @@ def luks_encrypt():
 	umountmnt = "sudo umount /mnt/" + drivename
 	luksclose = "sudo cryptsetup close " + drivename
 
-#	os.system(drive)
+	os.system(drive)
 	print (drive)
-#	os.system(unmountdev)
+	os.system(unmountdev)
 	print (unmountdev)
-#	os.system(wipe)
+	os.system(wipe)
 	print (wipe)
-#	os.system(luksformat)
+	os.system(luksformat)
 	print (luksformat)
-#	check drivename veriable
+	check drivename veriable
 	print (drivename)
-#	os.system(luksopen)
+	os.system(luksopen)
 	print (luksopen) 
-#	os.system(filesys)
+	os.system(filesys)
 	print (filesys)
-#	os.system(umountmnt)
+	os.system(umountmnt)
 	print (umountmnt)
-#	os.system(luksclose)
+	os.system(luksclose)
 	print (luksclose) 
 
 luks_encrypt()
